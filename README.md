@@ -22,9 +22,9 @@ All the source code is written in Javascript and should be located in the src fo
 
 Assuming you have installed the espruino cli , the source code is built and uploaded to the ruuvitag in the same step using espruino cli. This is a example of what to write into the terminal to build and upload to the ruuvitag: `espruino -p f7:ea:1b:ee:5a:5f src/main.js`. Following the `-p` is the mac-address of the ruuvitag. This is not necessarily required, but will make uploading successfully more consistent. End of the command `src/main.js` is the target path for the source code.
 
-To find more information on using the espruino cli you can type in `espruino --help` into the terminal to get more information.
+To find more information on using the espruino cli you can type `espruino --help` into the terminal.
 
-If you're still having alot of trouble with upload , you can upload code using the espruino web-ide.
+If you're still having alot of trouble with upload , you can upload code using the [espruino web-ide](https://www.espruino.com/ide/).
 
 ## Unittests
 
