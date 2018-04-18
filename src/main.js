@@ -1,9 +1,3 @@
-var  on = false;
-setInterval(function() {
-  on = !on;
-  LED1.write(on);
-}, 100);
-
 var data = new Uint8Array([
   0x00, 0x00, 0x00, 0x00, // |      UID/BCC      | TT = Tag Type
   0x00, 0x00, 0x00, 0x00, // |      UID/BCC      | ML = NDEF Message Length
