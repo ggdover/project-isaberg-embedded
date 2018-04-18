@@ -29,3 +29,5 @@ If you're still having alot of trouble with upload , you can upload code using t
 ## Unittests
 
 COMING SOON!!
+
+To understand more about how to use Jasmine click [here](https://jasmine.github.io/setup/nodejs.html)
